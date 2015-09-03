@@ -6,7 +6,7 @@ if Rails.env.development?
     authentication: :plain,
     user_name:      ENV['MAILGUN_SMTP_USERNAME'],
     password:       ENV['MAILGUN_SMTP_PASSWORD'],
-    domain:         'sandboxc533665cb18a494bb7ed47b99cb6ee4c.mailgun.org',
+    domain:         'appb79a8a2e3ddf4e458c4df2e46f5a03df.mailgun.org',
     enable_starttls_auto: true
   }
 end

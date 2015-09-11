@@ -1,0 +1,11 @@
+<div class="media">
+  <div class="col-md-8">
+    <div class="media-body">
+      <h2 class="media-heading"><%= current_user.name || current_user.email %>'s To Do List</h2>
+      <ul class="list-unstyled" id="js-items">
+        <%= render @items %>
+      </ul>
+      <%= render partial: "items/form", locals: {user: @user} %>
+    </div>
+  </div>
+</div>
